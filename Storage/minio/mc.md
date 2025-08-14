@@ -107,3 +107,5 @@ mc admin info <ALIAS_NAME>
 mc admin service restart <ALIAS_NAME>  
 
 ```
+
+[MinIO Client Documentation](https://docs.min.io/community/minio-object-store/reference/minio-mc.html)
