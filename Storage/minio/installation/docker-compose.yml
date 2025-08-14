@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: user
+      MINIO_ROOT_PASSWORD: password
+    volumes:
+      - ./data:/data
+    ports:
+      - "9000:9000"   # Storage API
+      - "9001:9001"   # Web console
+    restart: unless-stopped

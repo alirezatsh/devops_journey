@@ -3,18 +3,23 @@
 ## Installation and Configuration
 
 ### Linux/macOS
-MinIO Client:
+
+```bash
+
 wget https://dl.min.io/client/mc/release/linux-amd64/mc  
 chmod +x mc  
 sudo mv mc /usr/local/bin/
 mc alias set <ALIAS_NAME> <URL> <ACCESS_KEY> <SECRET_KEY>
+
+```
 
 
 ## Alias Commands
 
 Manage aliases 
 
-```
+```bash
+
 mc alias list  
 mc alias remove <ALIAS_NAME> 
 
@@ -25,7 +30,7 @@ mc alias remove <ALIAS_NAME>
 
 Manage buckets 
 
-```
+```bash
 mc ls <ALIAS_NAME>
 mc mb <ALIAS_NAME>/<bucket-name> 
 mc rb <ALIAS_NAME>/<bucket-name>
@@ -39,7 +44,8 @@ mc anonymous set <public|private|custom> <ALIAS_NAME>/<bucket-name>
 
 Manage objects
 
-```
+```bash
+
 mc cp <SOURCE> <ALIAS_NAME>/<bucket-name> 
 mc mv <SOURCE> <ALIAS_NAME>/<bucket-name> 
 mc rm <ALIAS_NAME>/<bucket-name>/<object>
@@ -58,7 +64,8 @@ mc stat <ALIAS_NAME>/<bucket-name>/file.txt
 
 Manage users
 
-```
+```bash
+
 mc admin user add <ALIAS_NAME> <USERNAME> <PASSWORD>
 mc admin user remove <ALIAS_NAME> <USERNAME>
 mc admin policy set <ALIAS_NAME> <POLICY> --user <USERNAME>
@@ -69,7 +76,8 @@ mc admin policy set <ALIAS_NAME> <POLICY> --user <USERNAME>
 
 Manage keys
 
-```
+```bash
+
 mc encrypt set <ALIAS_NAME>/<bucket-name> <KMS_KEY>
 mc encrypt unset <ALIAS_NAME>/<bucket-name>
 
@@ -79,7 +87,8 @@ mc encrypt unset <ALIAS_NAME>/<bucket-name>
 
 Manage versions
 
-```
+```bash
+
 mc version enable <ALIAS_NAME>/<bucket-name>
 mc version disable <ALIAS_NAME>/<bucket-name>
 mc ilm add <ALIAS_NAME>/<bucket-name> <rule.json>
@@ -92,7 +101,8 @@ mc ilm remove <ALIAS_NAME>/<bucket-name>
 
 Manage admin
 
-```
+```bash
+
 mc admin info <ALIAS_NAME>  
 mc admin service restart <ALIAS_NAME>  
 
