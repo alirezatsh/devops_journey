@@ -4,7 +4,6 @@
 MySQL is an open-source, relational database management system (RDBMS) that uses SQL (Structured Query Language) for storing, querying, and managing data.  
 It is widely used for web applications, enterprise solutions, and as the backend for many software systems due to its reliability, performance, and ease of use.
 
----
 
 ## How MySQL Works
 - Table-Oriented: Data is stored in rows and columns inside tables.
@@ -13,7 +12,6 @@ It is widely used for web applications, enterprise solutions, and as the backend
 - Storage Engines: Supports multiple engines like InnoDB (default) and MyISAM.
 - Concurrency: Handles multiple simultaneous connections efficiently.
 
----
 
 ## Key Features
 - Open-Source and widely supported.
@@ -24,7 +22,6 @@ It is widely used for web applications, enterprise solutions, and as the backend
 - JSON support for semi-structured data.
 - Partitioning and sharding capabilities.
 
----
 
 ## Use Cases
 - Web and mobile applications.
@@ -34,7 +31,6 @@ It is widely used for web applications, enterprise solutions, and as the backend
 - Enterprise applications (ERP, CRM).
 - Any system requiring relational data and consistency.
 
----
 
 ## Disadvantages
 - Schema changes require migrations.
@@ -43,7 +39,6 @@ It is widely used for web applications, enterprise solutions, and as the backend
 - Performance can degrade without proper indexing and optimization.
 - Some NoSQL databases outperform MySQL for unstructured or high-volume write workloads.
 
----
 
 ## Best Compatibility
 MySQL works well with:
@@ -54,7 +49,6 @@ MySQL works well with:
 - Go, Ruby, C#, Kotlin — official and community drivers.
 - Docker and Kubernetes for containerized deployments.
 
----
 
 ## Stability and Reliability
 - Mature and widely used in production for decades.
@@ -62,14 +56,12 @@ MySQL works well with:
 - Supports replication and clustering for high availability.
 - Backup and restore using mysqldump and MySQL Enterprise Backup.
 
----
 
 ## Load and Scalability
 - Vertical Scaling: Performs well on powerful servers.
 - Horizontal Scaling: Achievable with replication, clustering, or proxy layers.
 - Can handle millions of rows efficiently with proper indexing and configuration.
 
----
 
 ## Data Size Limits
 - Maximum database size: 256 TB (depending on filesystem).
@@ -77,7 +69,6 @@ MySQL works well with:
 - Maximum row size: 65,535 bytes (depends on columns and storage engine).
 - Maximum columns per table: 1017 (depends on storage engine).
 
----
 
 ## Benchmark Performance
 Note: Performance depends on hardware, query optimization, and storage engine.
@@ -86,7 +77,6 @@ Note: Performance depends on hardware, query optimization, and storage engine.
 - Latency: Sub-millisecond for indexed reads on small datasets.
 - Concurrency: Supports thousands of concurrent connections with proper tuning.
 
----
 
 ## Security
 - Authentication: Password-based authentication, LDAP, PAM.
@@ -94,7 +84,6 @@ Note: Performance depends on hardware, query optimization, and storage engine.
 - Encryption: TLS/SSL for in-transit, InnoDB tablespace encryption for at-rest.
 - Audit logging and firewall rules for advanced security.
 
----
 
 ## Installation
 
@@ -110,7 +99,7 @@ git clone https://github.com/alirezatsh/devops_journey.git
 
 ```bash
 cd devops_journey/Database/mysql
-‍```
+```
 
 3. Start the MySQL container:
 
@@ -118,7 +107,6 @@ cd devops_journey/Database/mysql
 docker-compose up -d
 ```
 
----
 
 # MySQL Resources
 

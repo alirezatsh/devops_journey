@@ -4,7 +4,6 @@
 Redis is an open-source, in-memory data structure store used as a database, cache, and message broker.  
 It supports various data types such as strings, hashes, lists, sets, sorted sets, bitmaps, and hyperloglogs, making it versatile and extremely fast.
 
----
 
 ## How Redis Works
 - In-Memory Storage: Stores data in RAM for ultra-low latency access.
@@ -13,7 +12,6 @@ It supports various data types such as strings, hashes, lists, sets, sorted sets
 - Pub/Sub Messaging: Supports message broadcasting and event notification.
 - High Performance: Handles millions of operations per second with low latency.
 
----
 
 ## Key Features
 - Extremely fast read and write operations.
@@ -23,7 +21,6 @@ It supports various data types such as strings, hashes, lists, sets, sorted sets
 - Cluster mode for horizontal scaling and partitioning.
 - Lightweight and easy to deploy in containers.
 
----
 
 ## Use Cases
 - Caching layer to reduce database load.
@@ -33,7 +30,6 @@ It supports various data types such as strings, hashes, lists, sets, sorted sets
 - Leaderboards and counting systems in games.
 - Rate limiting and counters for APIs.
 
----
 
 ## Disadvantages
 - Data stored in memory, so limited by RAM size.
@@ -42,7 +38,6 @@ It supports various data types such as strings, hashes, lists, sets, sorted sets
 - Cluster management requires careful planning.
 - Large datasets may require sharding or external storage.
 
----
 
 ## Best Compatibility
 Redis works well with:
@@ -52,7 +47,6 @@ Redis works well with:
 - Go, PHP, Ruby, C#, Kotlin — official and community clients.
 - Docker and Kubernetes for containerized deployments.
 
----
 
 ## Stability and Reliability
 - Mature and widely used in production since 2009.
@@ -60,7 +54,6 @@ Redis works well with:
 - Replication ensures high availability.
 - Optional persistence for durability in case of crashes.
 
----
 
 ## Load and Scalability
 - In-memory nature allows extremely high throughput.
@@ -68,14 +61,12 @@ Redis works well with:
 - Supports clustering for distributing large datasets across multiple nodes.
 - Low latency: typically sub-millisecond response times.
 
----
 
 ## Data Size Limits
 - Limited by available RAM.
 - Maximum string value: 512 MB.
 - Practical dataset size depends on memory and cluster design.
 
----
 
 ## Benchmark Performance
 Note: Performance depends on hardware, dataset size, and network configuration.
@@ -84,7 +75,6 @@ Note: Performance depends on hardware, dataset size, and network configuration.
 - Latency: Typically sub-millisecond for both reads and writes.
 - Pub/Sub: Efficient message broadcasting to thousands of subscribers.
 
----
 
 ## Security
 - Authentication with `requirepass`.
@@ -92,7 +82,6 @@ Note: Performance depends on hardware, dataset size, and network configuration.
 - TLS/SSL support for encrypted in-transit data.
 - Protected mode and network binding for restricted access.
 
----
 
 ## Installation
 
@@ -108,7 +97,7 @@ git clone https://github.com/alirezatsh/devops_journey.git
 
 ```bash
 cd devops_journey/Database/redis
-‍```
+```
 
 3. Start the Redis container:
 
@@ -116,7 +105,6 @@ cd devops_journey/Database/redis
 docker-compose up -d
 ```
 
----
 
 # Redis Resources
 

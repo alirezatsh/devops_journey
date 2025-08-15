@@ -4,7 +4,6 @@
 MongoDB is an open-source NoSQL database that stores data in a flexible, JSON-like format called BSON (Binary JSON).  
 Unlike relational databases, MongoDB is schema-less, allowing developers to store and query data without predefined table structures.
 
----
 
 ## How MongoDB Works
 - Document-Oriented: Data is stored in documents (key-value pairs) inside collections.
@@ -12,7 +11,6 @@ Unlike relational databases, MongoDB is schema-less, allowing developers to stor
 - Horizontal Scalability: MongoDB supports sharding, splitting data across multiple servers for performance.
 - High Availability: Through replica sets, MongoDB provides automatic failover and redundancy.
 
----
 
 ## Key Features
 - NoSQL & Schema-less: Flexible document structure.
@@ -21,7 +19,6 @@ Unlike relational databases, MongoDB is schema-less, allowing developers to stor
 - Horizontal Scalability: Easily scale across multiple machines.
 - Automatic Failover: Keeps your database online even during hardware failures.
 
----
 
 ## Use Cases
 - Real-time analytics (dashboards, monitoring tools)
@@ -31,7 +28,6 @@ Unlike relational databases, MongoDB is schema-less, allowing developers to stor
 - Mobile and game backends
 - Catalog and inventory management
 
----
 
 ## Disadvantages
 - Memory Usage: Uses more RAM compared to relational databases because of document-based storage and indexes.
@@ -43,7 +39,6 @@ Unlike relational databases, MongoDB is schema-less, allowing developers to stor
 - Less Suitable for Complex Multi-Table Relationships: Relational DBs handle such scenarios more efficiently.
 - Indexing Overhead: Large indexes can reduce write performance.
 
----
 
 ## Best Compatibility
 MongoDB works well with:
@@ -53,7 +48,6 @@ MongoDB works well with:
 - Go, PHP, Ruby, C#, Kotlin — official drivers available.
 - Docker and Kubernetes for containerized deployments.
 
----
 
 ## Stability and Reliability
 - Mature and Production-Ready: First released in 2009, widely used in enterprise solutions.
@@ -61,20 +55,17 @@ MongoDB works well with:
 - Journaling ensures durability in case of crashes.
 - ACID Transactions (since MongoDB 4.0) for multi-document safety.
 
----
 
 ## Load and Scalability
 - Sharding: Distributes large datasets across multiple servers.
 - Built for High Load: MongoDB can handle thousands of writes per second on commodity hardware.
 - Data Volume: MongoDB databases with terabytes of data are common in production.
 
----
 
 ## Document Size Limits
 - Maximum document size: 16 MB (BSON limit)
 - For larger data: Use GridFS to store and retrieve files up to multiple gigabytes.
 
----
 
 ## Benchmark Performance
 Note: Performance depends on use case, hardware, indexing strategy, and query patterns.
@@ -86,14 +77,12 @@ Note: Performance depends on use case, hardware, indexing strategy, and query pa
 - Aggregation:  
   Optimized via `$lookup`, `$group`, `$match`, and pipeline stages.
 
----
 
 ## Security
 - Authentication: SCRAM-SHA-1, SCRAM-SHA-256, LDAP.
 - Authorization: Role-based access control.
 - Encryption: TLS/SSL for in-transit, Encrypted Storage Engine for at-rest.
 
----
 
 ## Installation
 
@@ -110,7 +99,7 @@ git clone https://github.com/alirezatsh/devops_journey.git
 
 ```bash
 cd devops_journey/Database/mongodb
-‍```
+```
 
 3. Start the MongoDB container:
 
@@ -118,7 +107,6 @@ cd devops_journey/Database/mongodb
 docker-compose up -d
 ```
 
----
 
 ## Resources
 - [Official MongoDB Documentation](https://www.mongodb.com/docs/)
