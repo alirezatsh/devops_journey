@@ -50,7 +50,7 @@ db.users.countDocuments()
 
 ```
 
-### Manage document
+## Manage document
 
 Insert, update, delete, query documents
 

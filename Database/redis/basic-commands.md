@@ -13,8 +13,8 @@ Connect to Redis server
 redis-cli
 redis-cli -h <host> -p <port> -a <password>
 docker exec -it redis-container-name redis-cli
-
-‍‍```
+‍‍
+```
 
 ## Manage database
 
