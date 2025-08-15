@@ -86,7 +86,7 @@ Note: Performance depends on use case, hardware, indexing strategy, and query pa
 
 ## Installation
 
-Follow these steps to set up MinIO using Docker:
+Follow these steps to set up MongoDB using Docker:
 
 
 1. Clone the repo

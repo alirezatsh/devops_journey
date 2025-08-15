@@ -111,7 +111,7 @@ docker-compose up -d
 ```
 
 
-# PostgreSQL Resources
+## PostgreSQL Resources
 
 - [Official PostgreSQL Documentation](https://www.postgresql.org/docs/)
 - [PostgreSQL GitHub Repository](https://github.com/postgres/postgres)

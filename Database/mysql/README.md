@@ -87,7 +87,7 @@ Note: Performance depends on hardware, query optimization, and storage engine.
 
 ## Installation
 
-Follow these steps to set up PostgreSQL using Docker:
+Follow these steps to set up MySQL using Docker:
 
 1. Clone the repo
 
@@ -108,7 +108,7 @@ docker-compose up -d
 ```
 
 
-# MySQL Resources
+## MySQL Resources
 
 - [Official MySQL Documentation](https://dev.mysql.com/doc/)
 - [MySQL GitHub Repository](https://github.com/mysql/mysql-server)

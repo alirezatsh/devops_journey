@@ -85,7 +85,7 @@ Note: Performance depends on hardware, dataset size, and network configuration.
 
 ## Installation
 
-Follow these steps to set up PostgreSQL using Docker:
+Follow these steps to set up Redis using Docker:
 
 1. Clone the repo
 
@@ -106,7 +106,7 @@ docker-compose up -d
 ```
 
 
-# Redis Resources
+## Redis Resources
 
 - [Official Redis Documentation](https://redis.io/docs/)
 - [Redis GitHub Repository](https://github.com/redis/redis)
