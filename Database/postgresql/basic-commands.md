@@ -2,7 +2,7 @@
 
 This file contains basic PostgreSQL commands for managing databases, tables, and records.
 
----
+
 
 ## Connect to PostgreSQL
 

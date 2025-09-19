@@ -2,7 +2,7 @@
 
 This file contains basic Redis commands for managing databases, keys, and values.
 
----
+
 
 ## Connect to Redis
 

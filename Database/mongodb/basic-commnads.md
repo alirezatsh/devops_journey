@@ -2,7 +2,7 @@
 
 This file contains basic MongoDB commands for managing databases, collections, and documents.
 
----
+
 
 ## Connect to mongodb
 

@@ -2,7 +2,7 @@
 
 This file contains basic MySQL commands for managing databases, tables, and records.
 
----
+
 
 ## Connect to MySQL
 
